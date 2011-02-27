@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "AlgoService\Web\Web.csproj", "{AAFDCD46-D1E9-4A8F-BC57-53DD70BE576A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Services", "AlgoService\Services\Services.fsproj", "{CDABDE98-F9BC-4BDB-9ADF-F024D53997CC}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Contracts", "AlgoService\Contracts\Contracts.fsproj", "{E55EAF18-CF05-4386-B925-CEB2993A8B8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAFDCD46-D1E9-4A8F-BC57-53DD70BE576A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFDCD46-D1E9-4A8F-BC57-53DD70BE576A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFDCD46-D1E9-4A8F-BC57-53DD70BE576A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFDCD46-D1E9-4A8F-BC57-53DD70BE576A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDABDE98-F9BC-4BDB-9ADF-F024D53997CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDABDE98-F9BC-4BDB-9ADF-F024D53997CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDABDE98-F9BC-4BDB-9ADF-F024D53997CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDABDE98-F9BC-4BDB-9ADF-F024D53997CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55EAF18-CF05-4386-B925-CEB2993A8B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55EAF18-CF05-4386-B925-CEB2993A8B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55EAF18-CF05-4386-B925-CEB2993A8B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55EAF18-CF05-4386-B925-CEB2993A8B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

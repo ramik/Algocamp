@@ -1,1 +1,7 @@
-_ReSharper
+[Oo]bj
+[Bb]in
+*.user
+*.suo
+_ReSharper.*
+*.resharper.user
+
