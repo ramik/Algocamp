@@ -4,4 +4,4 @@
 *.suo
 _ReSharper.*
 *.resharper.user
-
+*.Publish.xml
