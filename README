@@ -1,0 +1,7 @@
+
+Open solution, update to IIS or Asp.net development server. AlcoCamp is the IIS virtual directory. 
+
+curl -H "Content-Type: application/json" -d @data.json http://localhost/AlcoCamp/AlgoService.svc/
+
+Expected result: [1,3]
+
