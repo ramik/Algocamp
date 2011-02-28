@@ -3,11 +3,18 @@
 open System.Runtime.Serialization
 open System.ServiceModel
 
-// Note: When running serialization code in partial trust, you may need to convert 
-//       this to a class with a default constructor.
 [<DataContract>]
-type CompositeType =
-    { [<DataMember>] mutable BoolValue : bool
- 
-      [<DataMember>] mutable StringValue : string }
+type InnerType = {
+        [<DataMember>] mutable id : int
+        [<DataMember>] mutable e : int[]
+        [<DataMember>] mutable f : int
+    }
+
+[<DataContract>]
+type CompositeType =  {
+     [<DataMember>] mutable a : string
+     [<DataMember>] mutable b : int
+     [<DataMember>] mutable c : InnerType[]
+     [<DataMember>] mutable g : int[]
+     }
 
